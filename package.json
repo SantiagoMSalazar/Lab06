@@ -1,0 +1,21 @@
+{
+  "name": "lab06",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --mode=development"
+  },
+  "keywords": [],
+  "author": "Santiago Salazar",
+  "license": "ISC",
+  "dependencies": {
+    "firebase": "^10.1.0"
+  },
+  "devDependencies": {
+    "dotenv-webpack": "^8.0.1",
+    "webpack": "^5.88.2",
+    "webpack-cli": "^5.1.4"
+  }
+}

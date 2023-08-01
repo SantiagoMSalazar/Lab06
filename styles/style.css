@@ -1,0 +1,51 @@
+/* Estilos generales */
+body {
+    font-family: 'Courier New', monospace;
+    background-color: #1a1a1a;
+    color: #fff;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  .container {
+    margin-top: 50px;
+  }
+  
+  /* Estilos para el formulario */
+  .form-group label {
+    color: #fff;
+  }
+  
+  .form-control {
+    background-color: #333;
+    border: 1px solid #444;
+    color: #fff;
+  }
+  
+  .form-control::placeholder {
+    color: #bbb;
+  }
+  
+  .btn-primary {
+    background-color: #3366cc;
+    border-color: #3366cc;
+  }
+  
+  .btn-primary:hover {
+    background-color: #254b8e;
+    border-color: #254b8e;
+  }
+  
+  .btn-primary:focus,
+  .btn-primary:active {
+    box-shadow: none;
+  }
+  
+  .btn-primary:not(:disabled):not(.disabled):active:focus,
+  .btn-primary:not(:disabled):not(.disabled).active:focus {
+    box-shadow: none;
+  }
+  
+  
